@@ -1,2 +1,5 @@
 # Victron_MaxVoltMaxCell
-Kontrolliert über MQTT die maximale Ladespannung in Abhängigkeit zu der maximalen Zellspannung
+Kontrolliert über MQTT die maximale Ladespannung in Abhängigkeit zu der maximalen Zellspannung<br>
+Dadurch ist es möglich mit voller Spannung zu laden (dadurch kann mit viel Druck(Strom) geladen werden).<br>
+Dann, wenn der Akku voll wird, wird die Spannung zurück genommen um eine Überladung zu verhindern.<br>
+Voreingestelle Limits für Lifepo4 16 Zellig. 
